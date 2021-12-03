@@ -1,0 +1,12 @@
+name: covid_repository
+description: Dart package to manage covid repository domain
+publish_to: none
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+dependencies: 
+  equatable: ^2.0.3
+  json_annotation: ^4.4.0
+  json_serializable: ^6.1.0
+  covid_api:
+    path: ../covid_api
